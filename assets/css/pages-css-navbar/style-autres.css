@@ -1,0 +1,155 @@
+.mon-gif {
+	height: 8em;
+	animation: mon-gif 5s infinite;
+	background-color: orangered;
+}
+
+.mon-gif h1 {
+	align-items: center;
+}
+
+.petite-nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-weight: bold;
+	height: 8em;
+}
+
+.petite-nav img {
+	font-size: 30px;
+}
+
+.nom_jardin_logo {
+	display: flex;
+	align-items: center;
+	padding-right: 5em;
+	padding-left: 15em;
+}
+
+body {
+	font-family: "Poppin", sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+header {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.header-container {
+	max-width: 100%;
+	background-color: green;
+	align-items: center;
+	display: flex;
+	height: 8em;
+}
+
+.navbar {
+	display: flex;
+}
+
+.navbar-1 {
+	padding-left: 3em;
+}
+
+.navbar-2 {
+	padding-left: 28em;
+}
+
+.navbar-2 li a{
+	color: #fff;
+}
+
+.search-content {
+	display: flex;
+	padding-right: 20px;
+	border: 1px solid black;
+	border-radius: 30px;
+	overflow: hidden;
+	align-items: center;
+}
+
+input[type="search"] {
+	font-size: 20px;
+	border: none;
+	width: 550px;
+	padding: 20px;
+}
+
+input[type="search"]::placeholder {
+	font-size: 18px;
+	color: black;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+footer {
+	flex-shrink: 0;
+	border: 1px solid black;
+	background: linear-gradient(to right, orangered, green);
+	background: linear-gradient(to left, green, orangered);
+	width: 100%;
+	color: white;
+}
+
+.contenu_footer {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 50px 0px 100px;
+}
+
+.footer_services h3,
+.footer_contacts h3,
+.footer_horraires h3,
+.footer_reseaux h3 {
+	width: 25%;
+	margin: 0 30px;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.footer_contacts p {
+	padding: 5px 0px;
+}
+
+
+.listes_services,
+.listes_contacts,
+.listes_horraires {
+	list-style-type: none;
+}
+
+.listes_services {
+	padding: 2px 0px;
+}
+
+.listes_services a {
+	text-decoration: none;
+	color: #333;
+}
+
+.listes_reseaux a {
+	text-decoration: none;
+	color: #333;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	list-style-type: none;
+}
