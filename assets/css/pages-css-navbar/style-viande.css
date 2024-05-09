@@ -13,6 +13,7 @@
 .petite-nav {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	width: 100%;
 	font-weight: bold;
 	height: 8em;
@@ -22,11 +23,24 @@
 	font-size: 30px;
 }
 
-.nom_jardin_logo {
+.nav-content{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo {
 	display: flex;
 	align-items: center;
-	padding-right: 5em;
-	padding-left: 15em;
+	margin-left: 5em;
+}
+
+.search{
+	display: flex;
+	width: 100%;
+	padding-left: 200px;
 }
 
 body {
@@ -58,7 +72,11 @@ header {
 }
 
 .navbar-2 {
-	padding-left: 28em;
+	display: flex;
+	padding-left: 37em;
+	justify-content: space-around;
+	width: 100%;
+	margin-right: 5em;
 }
 
 .navbar-2 li a{
@@ -72,6 +90,7 @@ header {
 	border-radius: 30px;
 	overflow: hidden;
 	align-items: center;
+	background-color: blue;
 }
 
 input[type="search"] {
@@ -119,10 +138,18 @@ main {
 	object-fit: cover;
 }
 
+.fav{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 38px;
+	height: 38px;
+}
+
 .grid-item {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(1, 1fr);
 	gap: 15px;
 }
 
@@ -131,11 +158,18 @@ main {
 	margin-left: 5px;
 	margin-right: 5px;
 	display: flex;
+	position: relative;
 }
 
 .nom-fruit{
 	text-decoration: none;
 	color: blue;
+	font-size: 20px;
+}
+
+.prix-fruit h3{
+	color: rgb(110, 31, 236);
+	letter-spacing: -2px;
 }
 
 .nom-item{
@@ -157,6 +191,10 @@ main {
 	padding: 15px;
 }
 
+.prix-content {
+	display: flex;
+	justify-content: space-between;
+}
 
 .item a img{
 	height: 260px;
